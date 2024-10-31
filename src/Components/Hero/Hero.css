@@ -1,7 +1,8 @@
 .hero{
     height: 100vh;
     display: flex;
-    background: rgba(236, 158, 244, 0.608);
+    background: #ffc6ff;
+     font-family:'Popppins'
 }
 .hero-left{
     flex: 1;
@@ -44,7 +45,7 @@
     height: 70px;
     border-radius: 75px;
     margin-top: 30px;
-    background-color: #ff4141;
+    background-color: #ff595e;
     color: #fff;
     font-size: 22px;
     font-weight: 500;
