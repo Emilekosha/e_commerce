@@ -1,5 +1,5 @@
 .item {
-    width: 400px;
+    width: 350px;
     box-shadow: 3px 0px 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 20px;
@@ -32,3 +32,11 @@
     transform: scale(1.05);
     transition: 0.5s;
 }
+
+.item img {
+    width: 300px; /* Ajustez cette valeur pour la largeur souhaitée */
+    height: auto; /* Garde le ratio d'origine */
+    object-fit: cover; /* Remplit l'espace tout en conservant le ratio */
+    border-radius: 8px;
+  }
+  
